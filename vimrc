@@ -13,3 +13,5 @@ set sw=2
 set expandtab
 
 set number
+
+map <F8> :NERDTreeToggle<CR>
