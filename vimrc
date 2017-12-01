@@ -15,3 +15,7 @@ set expandtab
 set number
 
 map <F8> :NERDTreeToggle<CR>
+
+if exists('$TMUX')
+  set term=screen-256color
+endif
