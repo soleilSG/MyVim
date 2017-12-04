@@ -15,6 +15,7 @@ set expandtab
 set number
 
 map <F8> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 if exists('$TMUX')
   set term=screen-256color
