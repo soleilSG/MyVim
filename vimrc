@@ -17,6 +17,8 @@ set number
 map <F8> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
+map <F9> :TagbarToggle<CR>
+
 if exists('$TMUX')
   set term=screen-256color
 endif
